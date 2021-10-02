@@ -38,10 +38,10 @@ app.post("/", function(req, res) {
     const jsonData = JSON.stringify(data);
 
     //send authenticated data to mailchimp using Node's https package 
-    const url = "https://us5.api.mailchimp.com/3.0/lists/6c0e1620ac";
+    const url = "https://us5.api.mailchimp.com/3.0/lists/your-code-here";
     const options = {
         method: "POST",
-        auth: "bascur:a59445f409af10694a9a9a767b47008c-us5"
+        auth: "bascur:your-code-here"
     }
     const request = https.request(url, options, function(response) {
 
