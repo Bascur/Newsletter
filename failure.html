@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Failure</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <main>
+        <div class="container py-5">
+            <div class="p-5 mb-4 bg-light rounded-3">
+                <div class="container-fluid py-0">
+                    <h1 class="display-5 fw-bold">Uh Oh!</h1>
+                    <p class="col-md-8 fs-4">
+                        <p>Something went wrong. Please try again later.</p>
+                        <form action="/failure" method="POST">
+                            <button style="color:white;" class="btn btn-large btn-warning" type="sumbit" name="button">Try Again</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
